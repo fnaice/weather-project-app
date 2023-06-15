@@ -1,0 +1,74 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: Poppins;
+  text-align: center;
+  margin: 24px auto;
+  margin-bottom: 0;
+  color: rgb(0, 0, 0);
+}
+ 
+hr {
+  margin: 0 auto;
+  background-color: rgb(35, 35, 35);
+  width: 60%;
+  height: 4px;
+  opacity: 0.75;
+}
+
+.input-city {
+  width: 60%;
+}
+.button {
+  transition: all 200ms ease-in-out;
+}
+.button:hover {
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+}
+.date {
+  text-align: right;
+}
+.date-time-container {
+  text-align: center;
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 12px;
+}
+.real-time {
+  text-align: right;
+}
+.real-temp {
+  margin-top: 17px;
+  font-family: Poppins;
+  vertical-align: middle;
+  font-size: 28px;
+}
+.thin {
+  font-weight: 200;
+}
+.small-text {
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: Poppins;
+}
+.week-temp {
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.week-temp .col {
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+}
+.weekday {
+  color: black;
+  font-weight: 600;
+}
+.weather-icon {
+  font-size: 32px;
+}
